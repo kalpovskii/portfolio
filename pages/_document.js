@@ -2,9 +2,9 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'kalpovsky.com',
+    title: 'kalpovsky.dev',
     description: 'Andrei Kalpovsky, a Frontend Developer.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image: './public/lupin.png'
   }
 
   return (
