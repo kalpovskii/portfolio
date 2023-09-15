@@ -3,8 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   const meta = {
     title: 'kalpovsky.dev',
-    description: 'Andrei Kalpovsky, a Frontend Developer.',
-    image: './public/lupin.png'
+    description: 'Andrei Kalpovsky, a Frontend Developer.'
   }
 
   return (
@@ -15,7 +14,6 @@ export default function Document() {
         <meta property="og:site_name" content={meta.title} />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
       </Head>
       <body>
         <Main />
